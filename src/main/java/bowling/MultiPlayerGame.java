@@ -5,7 +5,6 @@ package bowling;
  * @author rbastide
  */
 public interface MultiPlayerGame {
-	
 	/**
 	 * Démarre une nouvelle partie pour un groupe de joueurs
 	 * @param playerName un tableau des noms de joueurs (il faut au moins un joueur)
@@ -13,8 +12,7 @@ public interface MultiPlayerGame {
 	 * de la forme "Prochain tir : joueur Bastide, tour n° 1, boule n° 1"
 	 * @throws java.lang.Exception si le tableau est vide ou null
 	 */
-	public String startNewGame(String[] playerName) throws Exception ;
-	
+	public String startNewGame(String[] playerName) throws Exception;
 	/**
 	 * Enregistre le nombre de quilles abattues pour le joueur courant, dans le frame courant, pour la boule courante
 	 * @param nombreDeQuillesAbattues : nombre de quilles abattue à ce lancer
