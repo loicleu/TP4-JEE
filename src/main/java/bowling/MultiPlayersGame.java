@@ -14,9 +14,9 @@ public class MultiPlayersGame implements MultiPlayerGame {
         SinglePlayerGame[] jeu;
         int numjoueur;
 	public String startNewGame(String[] playerName){
-            String[] player = playerName;
-            for(int i=0;i<player.length;i++){
-                jeu[i]= new SinglePlayerGame();}
+            player = playerName;
+            /*for(int i=0;i<player.length;i++){
+                jeu[i]= new SinglePlayerGame();}*/
                 
             
         return "Prochain tir : joueur"+ player[0]+", tour n° 1, boule n° 1";}
